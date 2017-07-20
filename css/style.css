@@ -1,6 +1,6 @@
 .jumbotron {
-    padding-top: 275px;
-    padding-bottom: 248px;
+    padding-top: 175px;
+    padding-bottom: 148px;
 }
 
 nav {
@@ -8,29 +8,27 @@ nav {
 }
 
 .headerName {
+    font-size: 48pt;    /*keep header name the same size in every screen size */
     text-align: right;
-
+    padding-top: 50px;
 }
 
 .headersmalltext {
     text-align: left;
     max-width: 670px; /* keep the box the same lines of text */
     border-left: 4px black solid;
+    padding: 39px;
     padding-left: 15px;
     margin-left: -15px;
 
 }
 
-.headerName {
-    font-size: 48pt;    /*keep header name the same size in every screen size */
-    padding-top: 12px;
-}
 
 @media (max-width: 991px) {
     
     .headerName {
         text-align: center; /*set the header text centered in small screens */
-        padding: 10px;
+        padding: 0px;
     }
 
     .headersmalltext {
@@ -39,4 +37,7 @@ nav {
         max-width: unset;   /*responsive line */
         border-left: unset; /*responsive line */
         padding-top: 15px;  /*responsive line */
+        padding-left: 39px;
+        margin-left: unset;
+        margin: 20px;
     }
