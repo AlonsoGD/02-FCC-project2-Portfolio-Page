@@ -6,35 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class="nav navbar-header">
-                <a class="navbar-brand" href="#">Daniel Alonso Garcia</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><i class="fa fa-code" aria-hidden="true"></i> DAlonso</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">ABOUT</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">          
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-        <header>
+        <header id="about">
             <div class="jumbotron container-fluid">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class=""><b>DANIEL<br>ALONSO</b></h1>
+                        <h1 class="headerName"><b>DANIEL<br>ALONSO</b></h1>
                     </div>
                     <div class="col-md-6">
-                        <h2 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur blanditiis deleniti ut voluptatem rem harum, repudiandae, libero aliquam hic iusto ducimus praesentium numquam, modi non dolores inventore. Ipsa, architecto, totam?</h2>
+                        <h3 class="headersmalltext">Le ipsa harum illum autem inventore aperiam suscipit maiores eveniet iusto quas animi. Nobis, odio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur blanditiis deleniti ut voluptatem rem harum, repudiandae, libero aliquam hic iusto ducimus praesentium numquam, modi non dolores inventore. Ipsa, architecto, totam?</h3>
                     </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="container-fluid">
+            <div class="container-fluid" id="portfolio">
                 <section id="introductionportfolio">
                     <div class="row">
                         <div class="col-md-12">
@@ -44,9 +54,12 @@
                 </section>
                 <section id="portfoliopreviews">
                     <div class="row">
-                        <div class="col-md-4 text-center"><h2>Thumbnail</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A minima, aliquam in dolorem repellendus ullam et ducimus recusandae sunt dolor eos, ut molestias quod reiciendis consequatur incidunt vitae voluptatem nesciunt!</p></div>
-                        <div class="col-md-4 text-center"><h2>Thumbnail</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident velit fugiat ut, ducimus iste enim ipsam, tenetur corrupti. Inventore eos, ex delectus earum nobis porro rem soluta at veritatis, modi!</p></div>
-                        <div class="col-md-4 text-center"><h2>Thumbnail</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non debitis sed magni molestias natus quam consequuntur explicabo distinctio ab laboriosam ratione, consectetur voluptatibus dolores nesciunt, vitae perspiciatis laborum consequatur voluptate.</p></div>
+                        <div class="col-md-4 text-center"><h2>Project1</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A minima, aliquam in dolorem repellendus ullam et ducimus recusandae sunt dolor eos, ut molestias quod reiciendis consequatur incidunt vitae voluptatem nesciunt!</p></div>
+                        <div class="col-md-4 text-center"><h2>Project2</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident velit fugiat ut, ducimus iste enim ipsam, tenetur corrupti. Inventore eos, ex delectus earum nobis porro rem soluta at veritatis, modi!</p></div>
+                        <div class="col-md-4 text-center"><h2>Project3</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non debitis sed magni molestias natus quam consequuntur explicabo distinctio ab laboriosam ratione, consectetur voluptatibus dolores nesciunt, vitae perspiciatis laborum consequatur voluptate.</p></div>
+                        <div class="col-md-4 text-center"><h2>Project4</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non debitis sed magni molestias natus quam consequuntur explicabo distinctio ab laboriosam ratione, consectetur voluptatibus dolores nesciunt, vitae perspiciatis laborum consequatur voluptate.</p></div>
+                        <div class="col-md-4 text-center"><h2>Project5</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non debitis sed magni molestias natus quam consequuntur explicabo distinctio ab laboriosam ratione, consectetur voluptatibus dolores nesciunt, vitae perspiciatis laborum consequatur voluptate.</p></div>                                               
+                        <div class="col-md-4 text-center"><h2>Project6</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non debitis sed magni molestias natus quam consequuntur explicabo distinctio ab laboriosam ratione, consectetur voluptatibus dolores nesciunt, vitae perspiciatis laborum consequatur voluptate.</p></div>                     
                     </div>
                 </section>
                 <section id="contact">

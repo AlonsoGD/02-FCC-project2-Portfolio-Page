@@ -2,3 +2,40 @@
     padding-top: 275px;
     padding-bottom: 248px;
 }
+
+nav {
+    opacity: 1;
+}
+
+.headerName {
+    text-align: right;
+
+}
+
+.headersmalltext {
+    text-align: left;
+    max-width: 670px; /* keep the box the same lines of text */
+    border-left: 4px black solid;
+    padding-left: 15px;
+
+}
+
+.headerName {
+    font-size: 48pt;    /*keep header name the same size in every screen size */
+    padding-top: 12px;
+}
+
+@media (max-width: 991px) {
+    
+    .headerName {
+        text-align: center; /*set the header text centered in small screens */
+        padding: 10px;
+    }
+
+    .headersmalltext {
+        text-align: center; /*set the header text centered in small screens */
+        border-top: 4px black solid; /*responsive line */
+        max-width: unset;   /*responsive line */
+        border-left: unset; /*responsive line */
+        padding-top: 15px;  /*responsive line */
+    }
