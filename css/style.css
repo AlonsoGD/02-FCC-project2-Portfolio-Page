@@ -8,16 +8,16 @@ nav {
 }
 
 .headerName {
-    font-size: 48pt;    /*keep header name the same size in every screen size */
     text-align: right;
-    padding-top: 50px;
+    padding: 65px;
+    padding-right: 20px;
 }
 
 .headersmalltext {
     text-align: left;
     max-width: 670px; /* keep the box the same lines of text */
     border-left: 4px black solid;
-    padding: 39px;
+    padding: 65px;
     padding-left: 15px;
     margin-left: -15px;
 
@@ -36,8 +36,8 @@ nav {
         border-top: 4px black solid; /*responsive line */
         max-width: unset;   /*responsive line */
         border-left: unset; /*responsive line */
-        padding-top: 15px;  /*responsive line */
-        padding-left: 39px;
-        margin-left: unset;
-        margin: 20px;
+        padding-top: 0px;  /*responsive line */
+        padding-left: 65px;
+        margin-left: 35px;
+        margin-right: 35px;
     }
