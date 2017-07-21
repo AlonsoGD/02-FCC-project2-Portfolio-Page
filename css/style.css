@@ -5,8 +5,7 @@ nav {
 
 
 .jumbotron {
-    padding-top: 175px;
-    padding-bottom: 148px;
+    padding-top: 100px;
     color: white;
     text-shadow: black 0.3em 0.3em 0.5em;
     background: transparent;
@@ -25,7 +24,7 @@ nav {
 .headersmalltext {
     text-align: left;
     max-width: 670px; /* keep the box the same lines of text */
-    border-left: 4px black solid;
+    border-left: 4px white solid;
     padding: 65px;
     padding-left: 15px;
     margin-left: -15px;
@@ -42,7 +41,7 @@ nav {
 
     .headersmalltext {
         text-align: center; /*set the header text centered in small screens */
-        border-top: 4px black solid; /*responsive line */
+        border-top: 4px white solid; /*responsive line */
         max-width: unset;   /*responsive line */
         border-left: unset; /*responsive line */
         padding-top: 0px;  /*responsive line */
