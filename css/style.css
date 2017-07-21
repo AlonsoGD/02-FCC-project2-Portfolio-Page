@@ -3,6 +3,10 @@ nav {
     color: black;
 }
 
+body {  
+    font-family: 'Montserrat';
+}
+
 .parallaxfx {       /* Parallax effect */
     background-attachment: fixed;
     background-position: center;
@@ -12,7 +16,6 @@ nav {
 
 .bg {
     background-image: url(http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg);
-
 }    
 
 .jumbotron {
@@ -22,13 +25,12 @@ nav {
 }
 
 .headerName {
-    text-align: right;
     padding: 65px;
     padding-right: 30px;
+
 }
 
 .headersmalltext {
-    text-align: left;
     max-width: 670px; /* keep the box the same lines of text */
     border-left: 4px white solid;
     padding: 65px;
@@ -37,6 +39,9 @@ nav {
 
 }
 
+#introductionportfolio {
+    padding-bottom: 40px;
+}
 
 @media (max-width: 991px) {
     
