@@ -8,7 +8,7 @@ body {
 }
 
 header {
-
+    color: white;
 }
 
 .parallaxfx {       /* Parallax effect */
@@ -24,7 +24,6 @@ header {
 
 .jumbotron {
     padding: 200px 0px;
-    color: white;
     text-shadow: black 0.3em 0.3em 0.5em;
 }
 
