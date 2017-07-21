@@ -3,16 +3,18 @@ nav {
     color: black;
 }
 
+.bg {
+    background: transparent;
+    background-image: url(http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 .jumbotron {
     padding-top: 100px;
     color: white;
     text-shadow: black 0.3em 0.3em 0.5em;
-    background: transparent;
-    background-image: url(http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .headerName {
