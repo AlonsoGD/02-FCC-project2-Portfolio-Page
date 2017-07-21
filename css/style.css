@@ -3,15 +3,17 @@ nav {
     color: black;
 }
 
-.bg {
-    background-image: url(http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg);
-    height: 450px; 
+.parallaxfx {       /* Parallax effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.bg {
+    background-image: url(http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg);
+
+}    
 
 .jumbotron {
     padding-top: 100px;
