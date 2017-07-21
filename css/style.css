@@ -1,10 +1,14 @@
 nav {
-    opacity: 0.7;
+    opacity: 1;
     color: black;
 }
 
 body {  
     font-family: 'Montserrat';
+}
+
+header {
+
 }
 
 .parallaxfx {       /* Parallax effect */
@@ -19,13 +23,13 @@ body {
 }    
 
 .jumbotron {
-    padding-top: 100px;
+    padding: 200px 0px;
     color: white;
     text-shadow: black 0.3em 0.3em 0.5em;
 }
 
 .headerName {
-    padding: 65px;
+    padding: 40px;
     padding-right: 30px;
 
 }
@@ -49,7 +53,7 @@ body {
 }
 
 #contact {
-    padding: 100px 20px;
+    padding: 50px 20px 100px 20px;
 
 }
 
